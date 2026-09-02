@@ -5,6 +5,19 @@ the drummer figure (Armature NLA), drum-kit physics animation (MIDI-triggered),
 vocal lip-sync (MusicXML), a bass-MIDI ambient "breathing" layer, Roughness sync,
 and MIDI-driven spotlights — and outputs `final_output.blend`.
 
+## Authorship
+
+This repository was created with the assistance of **local LLMs**.
+The models used during development were:
+
+| Model | Note |
+|---|---|
+| `Qwen3.8:27b` | main model |
+| `qwen2.5-coder:30b` | used at the start |
+| `qwen3.6:27b` | also used |
+| `gemma4:31b` | also used |
+
+
 ## Requirements
 
 - **Windows / Linux** / Blender **5.0** (5.x series; assumes `bpy.ops.object.shade_smooth_by_angle`, etc.)
