@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Blender 一時ファイル / バックアップ
+*.blend1
+*.blend.tmp
+*.blender/
+
+# 実行ログ
+*_log.txt
+*.log
+unified_test_log.txt
+
+# 出力成果物（再実行で生成されるため管理対象外に）
+final_output.blend
+drum_set_animated.blend
+lipsync_output.blend
